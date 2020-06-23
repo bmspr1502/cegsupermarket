@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    font-family:'Raleway', sans-serif;
+}
+#main table{
+    width: 100%;
+    text-align: center;
+}
+#main table td{
+    padding: 12px;
+    border-radius: 4px;
+}
+#main table tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+#main table tr:nth-child(2n+1) {
+    background-color: #cccccc;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(circle, #a5afbe, #88a0a9, #728f8d, #687d6f, #646954);
+}
+fieldset legend{
+    text-align: center;
+    font-size: x-large;
+    background-color: blueviolet;
+    padding: 10px;
+    -webkit-box-shadow:rgb(110, 110, 110) 5px 5px 5px;
+    color: cornsilk;
+    -webkit-border-radius: 15px;
+}
+input[type=text], input[type=password],input[type=number],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#header{
+    text-align: center;
+    height: 10vh;
+    padding: 4vh;
+}
+#tab_wrap {
+    overflow-x: auto;
+}
+#mainform{
+    top: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 224, 77);
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow:rgb(110, 110, 110) 10px 10px 10px;
+    padding:20px;
+    position: absolute;
+}
+#nav ul {
+    padding: 5px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.navele {
+    display: inline-block;
+    height: 100%;
+    padding: 5px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navele >li {
+    display: inline-block;
+}
+.navele:hover{
+    background-color: #cccccc;
+}
+.submit{
+    background-color: indianred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-border-radius: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.submit:hover{
+
+    background-color: #8aa7ec;
+}
